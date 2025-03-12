@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently  \"node placeOrder-service\" \"node acceptOrder-service\" \"node dbconnect\"  \"viewOrder-service dbconnect\" \"addMenu-server\"  \"remove-Menu-service\" \"viewMenu-service\"     ",
+    "start": "concurrently \"node dbconnect.js\" \"node acceptOrder-service.js\" \"node placeOrder-service.js\" \"node viewOrder-service.js\" \"node addMenu-service.js\" \"node removeMenu-service.js\" \"node viewMenu-service.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
